@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Minha Namorada</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        // Função para mostrar as fotos e o vídeo
+        function mostrarFotos() {
+            document.getElementById('fotos').style.display = 'block';
+        }
+    </script>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Para Você, Amor 💖</h1>
+        <p>Querida Laryssa,</p>
+        <p>Você é a luz que ilumina meus dias e o motivo pelo qual eu sorrio. A cada momento ao seu lado, tenho certeza do quanto sou abençoado por ter você em minha vida.</p>
+        <p class="heart">💗</p>
+        <p>Com todo meu amor,<br> Yuri e Yohan</p>
+        <button onclick="mostrarFotos()" class="btn">Clique para ver mais 💌</button>
+
+        <div id="fotos" style="display: none;">
+            <h2>Nossas Memórias</h2>
+            <img src="sua-foto.jpg" alt="Foto do Yuri" class="foto">
+            <img src="foto-do-filho.jpg" alt="Foto do Yohan" class="foto">
+        </div>
+    </div>
+</body>
+</html>
